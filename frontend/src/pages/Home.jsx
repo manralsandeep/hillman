@@ -110,10 +110,10 @@ desc: "Strategic advisory for new businesses on trade regulations, market entry,
             {services.map((service) => (
               <div 
                 key={service.id} 
-                className="bg-white rounded-xl overflow-hidden shadow-[0_4px_20px_rgb(0,0,0,0.03)] border border-slate-100 hover:shadow-[0_15px_35px_rgb(0,0,0,0.08)] hover:-translate-y-1.5 transition-all duration-300 group flex flex-col h-full cursor-pointer"
+                className="bg-white rounded-xl overflow-hidden shadow-[0_4px_20px_rgb(0,0,0,0.03)] border border-slate-200 hover:shadow-[0_15px_35px_rgb(0,0,0,0.08)] hover:-translate-y-1.5 transition-all duration-300 group flex flex-col h-full cursor-pointer"
               >
                 {/* Illustration Space - Bada kar diya (h-52) */}
-                <div className="h-52 w-full bg-slate-50 overflow-hidden relative border-b border-slate-100 p-4 flex items-center justify-center">
+                <div className="h-52 w-full bg-slate-50 overflow-hidden relative border-b border-slate-200 p-4 flex items-center justify-center">
                   <img 
                     src={service.img} 
                     alt={service.title} 
@@ -147,7 +147,7 @@ desc: "Strategic advisory for new businesses on trade regulations, market entry,
             
             {/* LEFT SIDE: Single Big Illustration Placeholder */}
             <div className="w-full lg:w-1/2 h-[400px] lg:h-[500px]">
-              <div className="bg-slate-50 rounded-[2rem] w-full h-full overflow-hidden border border-slate-100 flex items-center justify-center p-8 hover:shadow-lg transition-shadow duration-300">
+              <div className="bg-slate-50 rounded-[2rem] w-full h-full overflow-hidden border border-slate-200 flex items-center justify-center p-8 hover:shadow-lg transition-shadow duration-300">
                 <img 
                   src="/About.png" 
                   alt="About Hillman Logistics" 
@@ -182,7 +182,7 @@ desc: "Strategic advisory for new businesses on trade regulations, market entry,
             {features.map((item) => (
               <div 
                 key={item.id} 
-                className="bg-slate-50 rounded-2xl py-8 px-4 border border-slate-100 hover:shadow-lg hover:-translate-y-1 hover:border-[#4c93b3]/30 transition-all duration-300 flex flex-col items-center justify-center text-center cursor-pointer group"
+                className="bg-slate-50 rounded-2xl py-8 px-4 border border-slate-200 hover:shadow-lg hover:-translate-y-1 hover:border-[#4c93b3]/30 transition-all duration-300 flex flex-col items-center justify-center text-center cursor-pointer group"
               >
                 {/* Card Illustration */}
                 <div className="w-24 h-24 mb-4 bg-white rounded-full flex items-center justify-center shadow-sm p-4 group-hover:scale-110 transition-transform duration-300">
